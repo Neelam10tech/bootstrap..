@@ -1,0 +1,112 @@
+javascript 
+	->variables & data type 
+	->Control Structure
+		-condition
+			->if else 
+			->if else if 
+			->nested if 
+			->switch case
+		-loop
+			->for loop 
+			->while loop 
+			->do while 
+			->map() - need array 
+	->Array 
+			->single dimensional
+			->multi dimensional
+			->nested Array			
+	->function 
+		->3 type of function 
+		  1. function 
+		  2. function without name 
+		  3. fat arrow function 
+-------Above all programs using cmd and nodejs in terminal---
+		  
+	=>Data binding 
+		1. type of popup window 
+			 -> alert() - it use to give confirmation to user 
+			 -> confirm() - it use to ask confirmation from user
+			 -> prompt() - it use to ask non boolean input from user 
+			 
+			 
+		2. Events in javascript
+			=>Type of event in javascript
+				a. Mouse Events 
+					->onclick
+					->ondblclick
+					->onmousedown 
+					->onmousemove
+					->onmouseout
+					->onchange 
+					
+				b. Keyboard Events 
+					->onkeypress
+					->onkeydow
+					->onkeyup
+					->onfocus
+					->onblue 
+					
+				c. Form Events 
+					->onsubmit - in form validation 
+				d. Body Events 
+					->onload
+
+		What is data binding in javascript
+			->The Process of sending the data from html to javascript & javascript to html is called data binding
+			->html has two type of tags 
+				a. input tag 
+				b. output tag 
+		Note : javascript want to send and receive data to input tags then 
+		using => .value 
+		javascript want to send and receive data to output tag then 
+		using => .innerText
+				 .innerHTML 
+	---------------------------------------------
+	=>Array 
+		->single dimensional 
+		->multi dimensional
+		->Nested Array 
+		->add , list, edit, delete 
+	----------------------------------------------
+	=>Web Storage 
+		->localStorage 
+		->sessionStorage 
+	----------------------------------------------
+	Live Server 
+		->JSON-SERVER
+		->import & export 
+		->async & Await 
+	----------------------------------------------
+	API
+		->fetch
+		->then 
+		->read local json data 
+		->read data from server
+		->JSON Parsing 
+	----------------------------------------------
+	promise & call back 
+	----------------------------------------------
+	AJAX 
+	----------------------------------------------
+	OOPS 
+	   class object 
+	   inheritance 
+	   
+	-------------18 to 20 classes----------
+	
+	web storage 
+			setItem() -> use to store data in local & session storage 
+			getItem() -> use to fetch data from local & session storage
+			clear()   -> use to clear all data from local & session storage
+			
+		localStorage : 
+			1. it store the data in browser
+			2. it will not erase the data if browser get close 
+			3. it has no any time limitation for storage(Same as permanent cookie)
+			4. if data stored in 1st (browser)tab , it can access in 2nd tab also
+			
+		sessionStorage : 
+			1. it store data in browser memory 
+			2. it will erase the data if browser get close.
+			3. it has time limitation of data storage till browser and same tab is live
+			4. if data is stored in 1st tab, can not access in 2nd tab.
